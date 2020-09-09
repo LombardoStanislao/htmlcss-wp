@@ -1,0 +1,99 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+}
+
+.container {
+
+  /* background-color: green; */
+  width: 1200px;
+  height: 100vh;
+  margin: auto;
+}
+
+.containet::after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box {
+  border-radius: 5px;
+}
+
+header {
+
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 10px solid white;
+  margin: 40px auto 0px;
+  width: 1200px;
+  height: 200px;
+}
+
+.title {
+  padding: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+h2 {
+  margin-top: 10px;
+  font-weight: lighter;
+}
+
+nav {
+
+  background-color: #504741;
+  margin: 0 auto 10px;
+  width: 1200px;
+  height: 50px;
+
+}
+
+.side-right {
+
+  float: left;
+  margin-left: 10px;
+  background-color: pink;
+  width: 20%;
+  height: 70%;
+}
+
+.side-left {
+
+  background-color: pink;
+  width: 20%;
+  float: left;
+  height: 50%;
+  margin-right: 10px;
+
+}
+main {
+
+  background-color: purple;
+  height: 70%;
+  width: calc(60% - 20px);
+  float: left;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background-color: lightblue;
+  width: 1200px;
+  height: 50px;
+  margin: auto;
+
+}
